@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(202, 199, 199);
+    margin: 0;
+}
+div{
+    box-sizing: border-box;
+}
+header{
+    background: white;
+    padding: 15px; ;
+}
+header h1{
+    margin: 0;
+}
+div.post{
+    background-color: white;
+    margin-top: 80px;
+}
+div.feed{
+    width: 600px;
+    margin: auto;
+}
+div.post h2, div.post p{
+    padding: 10px;
+    margin: 0;
+}
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+    color: grey;
+}
